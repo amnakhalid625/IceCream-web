@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --text-color: #342b0c;
+    --background-color: #fefbeb;
+    --innerbackground-color: #ede8d5;
+    --btn-color: #f3c30e;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+/* basic styling */
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 85%;
+    margin: auto;
+}
+.sections{
+    padding-block: 3rem;
+}
+
+/* navbar styling */
+
+.navbar {
+    justify-content: space-between;
+    height: 13vh;
+}
+
+.logo {
+    color: var(--text-color);
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.a-ice-cream {
+    font-size: 1.8rem;
+}
+
+.navlist {
+    gap: 3rem;
+}
+
+.link {
+    color: var(--text-color);
+    font-size: .95rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.nav-icons {
+    justify-content: center;
+    gap: 1rem;
+}
+
+.icons {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    background-color: var(--btn-color);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: .5s ease-in-out;
+    border: .1rem solid var(--btn-color);
+
+
+}
+
+.icons:hover {
+    background-color: transparent;
+}
+
+/*sections  */
+
+.hero {
+    min-height: 120vh;
+    background-image: url(../images/almonds.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    padding-top: 4rem;
+    position: relative;
+}
+
+.hero-inner {
+    background-color: var(--innerbackground-color);
+    width: 100%;
+    border-radius: 3rem;
+    justify-content: center;
+    padding: 1rem 2rem;
+    position: relative;
+    isolation: isolate;
+
+
+}
+
+.hero-inner h1 {
+    font-size: 14vw;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+
+}
+.hero-center-img{
+    position: absolute;
+    /* top: 50%; */
+    left: 45%;
+    transform: translateX(-78%) ;
+    top: 35%;
+    width: 23vw;
+    rotate: 30deg;
+    z-index:2;
+}
+.hero-right-images,
+.hero-left-images
+{
+    position: absolute;
+    top: 0;
+    transform: translateY(-30%);
+    width: 12vw;
+    }
+.hero-right-images{
+    right: 0;
+    z-index: -1;
+}
+.hero-left-images{
+    left: 0;
+}
+/* second section */
+ h2{
+    font-size:5vw;
+    margin-bottom: .5rem;
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: .2rem;
+
+}
+.card-container{
+    gap: 4rem;
+    height: 80vh;
+    align-items: flex-end;
+}
+.card{
+    flex:1;
+    background-color: var(--innerbackground-color);
+    padding: 12rem 2.5rem 2.5rem;
+    border-radius: 1.5rem;
+    position: relative;
+}
+.card-image{
+    width: 20rem;
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.card .content{
+    justify-content: space-between;
+}
+span{
+    font-weight:bold;
+    color: var(--text-color);
+}
+.dark-para{
+    font-weight: bold;
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
+.about-us{
+    background-color: var(--text-color);
+    border-radius: 1.5rem;
+    text-align: center;
+    padding-block: 8rem;
+    position: relative;
+
+    
+}
+.about-us h2,p{
+    color: var(--innerbackground-color);
+}
+
+.btn{
+    background-color: var(--btn-color);
+    color: var(--text-color);
+    padding: .8rem 2rem;
+    border-radius: 100vh;
+    transition: .5s ease-in-out;
+    font-weight: bold;
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+
+}
+.about-right-image{
+    position: absolute;
+    width: 28rem;
+    right: 2%;
+    bottom: 0;
+
+
+}
+.about-left-image{
+    position: absolute;
+    width: 30rem;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+
+
+}
+.healthy-section{
+    background-color: var(--innerbackground-color);
+    padding-top: 5rem;
+}
+.healthy-section p{
+    font-size: .9rem;
+    color: var(--text-color);
+}
+.milk-image {
+    z-index: 4;
+
+}
+.milk-image img{
+    display: block;
+}
+.healthy-section .content img{
+width: 15rem;
+display: block;
+float: right;
+}
+.commitement{
+    text-align: center;
+    background: url(images/leaves.png) no-repeat center;
+}
+.commitement .container img{
+    width: 20rem;
+    display: block;
+    margin: auto;
+}
+.commitement p{
+    color: var(--text-color);
+    max-width: 660px;
+    margin:auto;
+}
+footer{
+   padding-block: 2rem;
+   background-color: var(--text-color);
+}
+
+
+footer p{
+    text-align: center;
+}
