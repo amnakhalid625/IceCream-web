@@ -28,9 +28,4 @@ This is a visually appealing ice cream website built using **HTML, CSS, and GSAP
 - Simply open the live link to explore the website.
 - Scroll down to see smooth animations powered by GSAP.
 
-## 🖼 Screenshots
-### Homepage Preview
-![Homepage](file-Hy8DnEWqdtNDJnK78pMe1Y)
-
-
-Developed with ❤️ by Amna Khalid
+  Developed with ❤️ by Amna Khalid
