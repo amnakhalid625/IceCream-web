@@ -1,6 +1,6 @@
 # Ice Cream Website 🍦
 
-![Ice Cream Website](https://ice-cream-web-mu.vercel.app/)
+![Ice Cream Website](https://github.com/amnakhalid625/IceCream-web/blob/main/Screenshot%202025-03-20%20195337.png?raw=true)
 
 ## 🌍 Live Demo
 🔗 [Live Website](https://ice-cream-web-mu.vercel.app/)
